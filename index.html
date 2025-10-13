@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shashikanta Das — Cloud Engineer & Data Analyst</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Theme Toggle (floating) -->
+  <div class="theme-toggle-wrap" aria-hidden="false">
+    <button id="themeToggle" aria-label="Toggle theme">🌙</button>
+  </div>
+
+  <!-- floating decorative blobs -->
+  <div class="blobs" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+  </div>
+
+  <div class="wrap" role="main">
+    <main class="main" id="main">
+      <!-- Topbar -->
+      <div class="topbar">
+        <div class="nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="top-actions" aria-hidden="false">
+          <a class="icon-link" href="https://github.com/Shashikantadas176" target="_blank" rel="noopener" aria-label="GitHub">
+          
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 00-3.8 23.4c.6.1.8-.2.8-.5v-2c-3.3.7-4-1.6-4-1.6-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 .1 1.6-.8 1.9-1.2.1-.7.3-1.2.6-1.5-2.7-.3-5.6-1.3-5.6-5.8 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.6.1-3.4 0 0 1-.3 3.4 1.2a11.7 11.7 0 016.2 0c2.4-1.5 3.4-1.2 3.4-1.2.6 1.8.2 3.1.1 3.4.8.9 1.2 2 1.2 3.3 0 4.5-3 5.5-5.7 5.8.3.3.6.8.6 1.6v2.3c0 .3.2.6.8.5A12 12 0 0012 .5z"/></svg>
+          </a>
+
+          <a class="icon-link" href="https://www.linkedin.com/in/shashikanta-das-00a11b22c44/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.8 0-5 2.2-5 5v14c0 2.8 2.2 5 5 5h14c2.8 0 5-2.2 5-5v-14c0-2.8-2.2-5-5-5zm-11.5 19h-2.5v-9h2.5v9zm-1.25-10.3c-.8 0-1.45-.65-1.45-1.45s.65-1.45 1.45-1.45 1.45.65 1.45 1.45-.65 1.45-1.45 1.45zm13.75 10.3h-2.5v-4.6c0-1.1 0-2.6-1.6-2.6s-1.85 1.25-1.85 2.5v4.7h-2.5v-9h2.4v1.2h.04c.34-.66 1.17-1.36 2.4-1.36 2.56 0 3.5 1.68 3.5 3.86v5.28z"/></svg>
+          </a>
+
+          <button class="btn btn-outline" id="downloadBtn" aria-label="Download CV">Download CV</button>
+        </div>
+      </div>
+
+      <!-- HERO -->
+      <section id="home" class="hero fade">
+        <div class="avatar-wrapper">
+          
+          <img src="image 3.png" class="avatar-img" alt="Shashikanta Das">
+        </div>
+
+        <div class="hero-text">
+          <h1>Shashikanta Das <span class="muted">— DavOps & Cloud Engineer | Data Analyst</span></h1>
+          <p><span class="typed" id="typedText">Building solutions with cloud, data, and design.</span></p>
+          <div class="cta">
+            <a href="#portfolio" class="btn">Explore My Projects</a>
+            <a href="#contact" class="btn btn-outline">Get in Touch</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Intro -->
+      <div class="intro fade">
+        <div style="flex:1">
+          <div class="badge">Intern at CloudHeroWith AI</div>
+          <p class="intro-text">
+            Cloud Engineer with expertise in Cloud Computing, DevOps, Data Analysis, and Web/UI Design. Skilled in AWS, GCP, Docker, Kubernetes, Python, SQL, HTML/CSS/JS. Actively seeking my first career opportunity.
+          </p>
+        </div>
+        <div style="text-align:right">
+          <div class="small">Location</div>
+          <div style="font-weight:700;margin-top:6px">Bhubaneswar, India</div>
+        </div>
+      </div>
+
+      <!-- About -->
+      <section id="about" class="section fade">
+        <h2>About</h2>
+        <div class="card">
+          <strong>Education</strong>
+          <p class="small" style="margin-top:8px">
+            BSc. in Mathematics — R.I.H.S. College, Bhograi (2020–23)-7.0 CGPA<br>
+            MCA — REC College, Bhubaneswar (2023–25)-8.61 CGPA
+          </p>
+          <hr class="sep">
+          <strong>Current</strong>
+          <p class="small" style="margin-top:8px">Currently working as a DevOps and Cloud Engineer intern at CloudHeroWith AI — actively seeking first career opportunity.</p>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section fade" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill card" tabindex="0"><div class="meta"><span>Frontend - HTML/CSS/JS</span><span>85%</span></div><div class="bar" data-val="85"><i></i></div></div>
+          <div class="skill card" tabindex="0"><div class="meta"><span>Backend - SQL / PHP</span><span>72%</span></div><div class="bar" data-val="72"><i></i></div></div>
+          <div class="skill card" tabindex="0"><div class="meta"><span>Bootstrap</span><span>82%</span></div><div class="bar" data-val="82"><i></i></div></div>
+          <div class="skill card" tabindex="0"><div class="meta"><span>Cloud Computing & IoT 4.0</span><span>78%</span></div><div class="bar" data-val="78"><i></i></div></div>
+          <div class="skill card" tabindex="0"><div class="meta"><span>UI/UX & Web Design</span><span>80%</span></div><div class="bar" data-val="80"><i></i></div></div>
+          <!-- DevOps -->
+          <div class="skill card" tabindex="0"><div class="meta"><span>Linux</span><span>85%</span></div><div class="bar" data-val="85"><i></i></div></div>
+          <div class="skill card" tabindex="0"><div class="meta"><span>Git / GitHub</span><span>90%</span></div><div class="bar" data-val="90"><i></i></div></div>
+          <div class="skill card" tabindex="0"><div class="meta"><span>Docker</span><span>78%</span></div><div class="bar" data-val="78"><i></i></div></div>
+          <div class="skill card" tabindex="0"><div class="meta"><span>Kubernetes</span><span>70%</span></div><div class="bar" data-val="70"><i></i></div></div>
+          <div class="skill card" tabindex="0"><div class="meta"><span>Terraform</span><span>72%</span></div><div class="bar" data-val="72"><i></i></div></div>
+          <div class="skill card" tabindex="0"><div class="meta"><span>AWS</span><span>80%</span></div><div class="bar" data-val="80"><i></i></div></div>
+          <div class="skill card" tabindex="0"><div class="meta"><span>GCP</span><span>75%</span></div><div class="bar" data-val="75"><i></i></div></div>
+          <!-- Python / Data -->
+          <div class="skill card" tabindex="0"><div class="meta"><span>Python</span><span>85%</span></div><div class="bar" data-val="85"><i></i></div></div>
+          <div class="skill card" tabindex="0"><div class="meta"><span>Pandas / NumPy</span><span>80%</span></div><div class="bar" data-val="80"><i></i></div></div>
+          <div class="skill card" tabindex="0"><div class="meta"><span>Matplotlib / Seaborn</span><span>78%</span></div><div class="bar" data-val="78"><i></i></div></div>
+          <div class="skill card" tabindex="0"><div class="meta"><span>Excel / PowerBI / MSI</span><span>75%</span></div><div class="bar" data-val="75"><i></i></div></div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section id="services" class="section fade">
+        <h2>Services</h2>
+        <div class="services">
+          <div class="service">
+            <div class="icon">UI</div>
+            <div>
+              <strong>UI/UX Design</strong>
+              <div class="small">Designing modern, intuitive and responsive user interfaces with a focus on usability and aesthetics.</div>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="icon">WD</div>
+            <div>
+              <strong>Web Design & Development</strong>
+              <div class="small">Responsive websites built with clean code (HTML/CSS/JS), Bootstrap, and PHP for backend needs.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+      <section id="portfolio" class="section fade">
+        <h2>Projects</h2>
+        <div class="portfolio-grid">
+          <div class="project">
+            <strong>Hospital Management System</strong>
+            <p class="small" style="margin-top:8px">
+              Academic project built using HTML, CSS, JavaScript, SQL, Bootstrap, and PHP. Features patient registration, appointment scheduling, and admin dashboard. Highlights full-stack skills and UI/UX design.
+            </p>
+            <div class="tags" aria-hidden="true">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span><span class="tag">PHP</span><span class="tag">SQL</span>
+            </div>
+          </div>
+
+          <div class="project placeholder" aria-hidden="true">
+            <strong>More Projects Coming Soon</strong>
+            <p class="small" style="margin-top:8px">Space reserved for internships, freelance work and future client projects.</p>
+            <div class="tags">
+              <span class="tag">Coming Soon</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section fade">
+        <h2>Contact</h2>
+        <div class="card">
+          <form id="contactForm">
+            <input type="text" id="name" name="from_name" placeholder="Your name" required>
+            <input type="email" id="email" name="from_email" placeholder="Your email" required>
+            <textarea id="message" name="message" placeholder="How can I help?" required></textarea>
+            <div class="form-row">
+              <div class="small">Prefer email or phone — will respond quickly.</div>
+              <button class="send" id="sendBtn">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <footer class="fade">&#10084; <span id="year"></span> Shashikanta Das — DavOps & Cloud Engineer • Crafted for recruiters & clients.</footer>
+    </main>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" aria-label="Sidebar">
+      <div class="side-head">
+        <div style="flex:1">
+          <div style="font-weight:800;font-size:16px">Shashikanta Das</div>
+          <div class="small">DavOps & Cloud Engineer • Data Analyst • UI/UX Enthusiast</div>
+        </div>
+        <div style="text-align:right">
+          <div class="small">Status</div>
+          <div style="margin-top:6px" class="pill">Open to opportunities</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Contact</h2>
+        <div class="contact-list">
+          <div class="small"><strong>Email:</strong> <span id="contactEmail" style="margin-left:6px">shashikantadas176@gmail.com</span></div>
+          <div class="small"><strong>Phone:</strong> <span id="contactPhone" style="margin-left:6px">+91 7873374608</span></div>
+          <div class="small"><strong>LinkedIn:</strong> <span id="contactLinkedIn" style="margin-left:6px"> <a href="https://www.linkedin.com/in/shashikanta-das-00a11b22c44/">linkedin.com/Shashikanta-Das</a></span></div>
+          <div class="small"><strong>GitHub:</strong> <span id="contactGitHub" style="margin-left:6px"><a href="https://github.com/Shashikantadas176">github.com/Shashikantadas176</a></span></div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Quick Links</h2>
+        <div class="quick-links">
+          <a class="pill" href="#portfolio">View Portfolio</a>
+          <a class="pill" href="#contact">Hire Me</a>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Download</h2>
+        <div class="small">CV, Project docs, or resume link.</div>
+        <div style="margin-top:10px">
+          <button class="btn" id="cvBtn">Download CV</button>
+              <!-- <a href="files/Shashi_Resume.pdf" download class="btn">Download CV</a> -->
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <!-- EmailJS lib -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
